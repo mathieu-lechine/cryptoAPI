@@ -1,6 +1,7 @@
 #root_dir='/Users/anna/Desktop/mediumAPI'
 root_dir='/Users/m.lechine/python_projects/cryptoAPI'
-venv_dir='/Users/m.lechine/opt/anaconda3/envs/cryptoAPI'
+venv_dir='/Users/m.lechine/Envs/cryptoAPI/lib/python3.8/site-packages'
+#venv_dir='/Users/m.lechine/opt/anaconda3/envs/cryptoAPI'
 bucket_name="matl-cryptoapi"
 function_name="matl-cryptoapi"
 cd $venv_dir && zip -r9 "$root_dir/lambda.zip" . \

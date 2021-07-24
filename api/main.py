@@ -1,6 +1,7 @@
 from fastapi import FastAPI
-from v1.routers import router
 from mangum import Mangum
+
+from v1.routers import router
 
 app = FastAPI(title='Cryptocurrency API',
               description='API to track current prices and trading signals')
