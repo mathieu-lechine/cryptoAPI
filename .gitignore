@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#lambda zip
+lambda.zip
+.DS_Store
+.idea/
+
+
